@@ -2,7 +2,7 @@ import math
 
 menu=int(input(" Menu principal: \n 1-Operadores \n 2-Condicionales \n 3-Ciclos \n 99-Salir \n "))
 if(menu==1):
- print("Eliga una operacion")
+ print(" Eliga una operacion ")
      
  opcion=int(input(
          "1.Area de un triangulo\n"
