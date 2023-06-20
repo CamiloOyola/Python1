@@ -2,8 +2,16 @@ import math
 
 menu=int(input(" Menu principal: \n 1-Operadores \n 2-Condicionales \n 3-Ciclos \n 99-Salir \n "))
 if(menu==1):
-     print(" eliga una operacion ")
-     opcion=int(input(" 1. Area de un triangulo \n 2. Suma \n 3. Numero a la potencia cuadrada \n 4. Conversion de euros a dolares \n 5. Valor del area y perimetro de un cuadrado \n 6. Area y volumen de un cilindro \n 7. Longitud y Area de una circunferencia \n 8. Promedio de tres numeros \n "))
+     print("Eliga una operacion")
+     
+     opcion=int(input(" 1. Area de un triangulo \n "
+                      "2. Suma \n " 
+                      "3. Numero a la potencia cuadrada \n "
+                      "4. Conversion de euros a dolares \n "
+                      "5. Valor del area y perimetro de un cuadrado \n "
+                      "6. Area y volumen de un cilindro \n " 
+                      "7. Longitud y Area de una circunferencia \n " 
+                      "8. Promedio de tres numeros \n "))
      match opcion:
        case 1:
          base=int(input(" ingrese la base del triangulo[cm]: "))
