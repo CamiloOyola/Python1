@@ -60,15 +60,15 @@ elif (menu==2):
  match opcion: 
   case 1: 
    numero1=float(input(" Ingrese un numero : "))
-   if(numero1>0):
+   if (numero1>0):
     print(" El numero es positivo ")
-   elif(numero1<0):
+   elif (numero1<0):
     print(" El numero es negativo")
   case 2: 
     numero1=int(input(" Ingrese el primer numero ")) ; numero2=int(input(" Ingrese el segundo numero "))
-    if(numero1>numero2):
+    if (numero1>numero2):
      print(" El primer numero es mayor que el segundo ")
-    elif(numero1<numero2):
+    elif (numero1<numero2):
      print(" El segundo numero es mayor que el primero ")
     else:
      print(" Los numeros son iguales ")
@@ -99,15 +99,15 @@ elif (menu==2):
   case 6:
    numero1=int(input(" Ingrese el primer numero: "))
    numero2=int(input(" Ingrese el segundo numero: "))
-   if(numero1<0 or numero2<0):
+   if (numero1<0 or numero2<0):
     print(" El resultado de la suma es:", numero1*numero2)
-   elif(numero1 or numero2>0):
+   elif (numero1 or numero2>0):
     print(" El resultado de la suma es:", numero1+numero2)
   case 7:
    dia=int(input(" Ingrese los dias que tiene febrero en su calendario actual: "))
-   if(dia==29):
+   if (dia==29):
     print(" Su año es bisiesto ")
-   elif(dia<=28):
+   elif (dia<=28):
     print(" Su año no es bisiesto")
             
 elif(menu==3):
