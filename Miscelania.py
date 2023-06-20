@@ -60,11 +60,11 @@ elif (menu==2):
   case 2: 
     numero1=int(input(" Ingrese el primer numero ")) ; numero2=int(input(" Ingrese el segundo numero "))
     if(numero1>numero2):
-                    print(" El primer numero es mayor que el segundo ")
+     print(" El primer numero es mayor que el segundo ")
     elif(numero1<numero2):
-                     print(" El segundo numero es mayor que el primero ")
+     print(" El segundo numero es mayor que el primero ")
     else:
-                print(" Los numeros son iguales ")
+     print(" Los numeros son iguales ")
   case 3:
    x = input(' Ingrese el primer numero:')
    z = input(' Ingrese el segundo numero:')
