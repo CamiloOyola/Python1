@@ -49,7 +49,14 @@ if (menu==1):
    print(" El area de la circunferencia es", ((math.pi)*radio)**2)
 elif (menu==2):
  print(" Eliga una opcion ")
- opcion=int(input(" 1. Numero positivo o negativo \n 2. Numero ingresado es mayor o menor \n 3. Cual numero es mayor o menor entre dos numeros \n 4. Dados dos numeros se pueden restar o sumar \n 5. Encontrar el cociente entre dos numeros\n 6. Suma o multiplicacion\n 7. Es un año bisisesto o no \n "))
+ opcion=int(input(
+    "1.Numero positivo o negativo\n"
+    "2. Numero ingresado es mayor o menor\n"
+    "3. Cual numero es mayor o menor entre dos numeros\n" 
+    "4. Dados dos numeros se pueden restar o sumar\n"
+    "5. Encontrar el cociente entre dos numeros\n"
+    "6. Suma o multiplicacion\n"
+    "7. Es un año bisisesto o no \n"))
  match opcion: 
   case 1: 
    numero1=float(input(" Ingrese un numero : "))
