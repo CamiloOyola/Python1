@@ -112,7 +112,14 @@ elif (menu==2):
             
 elif (menu==3):
   print(" Eliga una opcion ")
-  opcion=int(input(" 1. Numeros multiplos de 3 que hay entre 1 y 100 \n 2. Numeros impares entre 1 y 100 \n 3. Numeros pares del 1 al 100 \n 4. Cuadrados de los numeros del 1 al 30 \n 5. Suma de los cuadrados de los cien primeros numeros naturales \n 6. Numeros comprendidos entre dos numeros en secuencia ascendente \n 7. Suma de todos los numeros(excepto el cero) \n "))
+  opcion=int(input( 
+    "1. Numeros multiplos de 3 que hay entre 1 y 100 \n"
+    "2. Numeros impares entre 1 y 100 \n"
+    "3. Numeros pares del 1 al 100 \n" 
+    "4. Cuadrados de los numeros del 1 al 30 \n" 
+    "5. Suma de los cuadrados de los cien primeros numeros naturales \n" 
+    "6. Numeros comprendidos entre dos numeros en secuencia ascendente \n" 
+    "7. Suma de todos los numeros(excepto el cero) \n "))
   match opcion:
    case 3:
     for i in range(2,101,2):
