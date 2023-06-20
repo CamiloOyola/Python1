@@ -82,16 +82,16 @@ elif (menu==2):
   case 4:
    a = input(" Ingrese la primer variable: ")
    b = input(" Ingrese la segunda variable: ")
-   if a < b:
+   if (a < b):
     suma = int(a) + int(b)
     print(" El resultado de la suma: ", suma)
-   elif a > b:
+   elif (a > b):
     resta =int(a) - int(b)
     print(" EL resultado de la resta es: ", resta) 
   case 5: 
     a = float(input(" Ingrese el primer numero: "))
     b = float(input(" Ingrese el segundo numero: "))
-    if a > 0 and b > 0:
+    if (a > 0 and b > 0):
      division = int(a) / int(b)
      print(" El resultado de la division es: ", division)
     else:
@@ -110,7 +110,7 @@ elif (menu==2):
    elif (dia<=28):
     print(" Su año no es bisiesto")
             
-elif(menu==3):
+elif (menu==3):
   print(" Eliga una opcion ")
   opcion=int(input(" 1. Numeros multiplos de 3 que hay entre 1 y 100 \n 2. Numeros impares entre 1 y 100 \n 3. Numeros pares del 1 al 100 \n 4. Cuadrados de los numeros del 1 al 30 \n 5. Suma de los cuadrados de los cien primeros numeros naturales \n 6. Numeros comprendidos entre dos numeros en secuencia ascendente \n 7. Suma de todos los numeros(excepto el cero) \n "))
   match opcion:
@@ -139,5 +139,5 @@ elif(menu==3):
      while (a!=0):
       print(a+b)
       break
-elif(menu==99):
+elif (menu==99):
     print(" Hata luego ")
